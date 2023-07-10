@@ -24,6 +24,8 @@ jobs:
         with: 
           node-version: '16.x'
           cache: 'yarn'
+      - run: |
+          npm install yarn -g    
       - run: yarn ci
       - run: yarn lint:prettier
       - run: yarn lint

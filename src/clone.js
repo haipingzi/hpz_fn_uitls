@@ -1,5 +1,5 @@
 import type from './type';
-// clone 函数  注释
+// clone 函数 注释
 export default function clone(source) {
   const t = type(source);
   if (!['array', 'object'].includes(t)) return source;

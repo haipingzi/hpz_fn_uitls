@@ -23,6 +23,7 @@
     "test:puppeteer": "node test/browser/puppeteer.js",
     "prepare": "husky install",
     "lint": "eslint src config test",
+    "lint:prettier": "prettier --check .",
     "ci": "commit",
     "cz": "git-cz",
     "sv": "standard-version --dry-run"

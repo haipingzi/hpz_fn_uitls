@@ -7,6 +7,7 @@ function type (el) {
   return Object.prototype.toString.call(el).slice(8, -1).toLowerCase();
 }
 
+// clone 函数  注释
 function clone(source) {
   var t = type(source);
   if (!['array', 'object'].includes(t)) return source;
